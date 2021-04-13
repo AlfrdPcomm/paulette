@@ -119,4 +119,12 @@
       :global(.vtex-input__suffix){
   display: none;
 }
+
+:global(.vtex-menu-2-x-styledLinkContent--itempaginas){
+  color:#000000;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--itemprin){
+  font-size: 20px;
+}
   

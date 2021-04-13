@@ -63,8 +63,8 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu"
+      //"flex-layout.col#logo-desktop",
+      "flex-layout.col#menuprin"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -73,12 +73,12 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#category-menu": {
+  "flex-layout.col#menuprin": {
     "props": {
       "verticalAlign": "middle"
     },
     //"children": ["vtex.menu@2.x:menu#category-menu"]
-    "children": ["vtex.menu@2.x:menu#menu-alfrd"]
+    "children": ["vtex.menu@2.x:menu#categmen"]
   },
   "logo#desktop": {
     "props": {
