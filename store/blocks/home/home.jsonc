@@ -112,7 +112,8 @@
     "children":[
       "rich-text#tit1rosa"
     ],"props":{
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass":"colbanderins"
     }
   },
 

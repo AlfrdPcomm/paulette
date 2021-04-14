@@ -118,6 +118,7 @@
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more"
+     
     ],
     "props": {
       "orientation": "vertical"
@@ -154,6 +155,9 @@
       "width": "250"
     }
   }
+
+
+
 
 
 

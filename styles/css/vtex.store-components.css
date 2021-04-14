@@ -144,3 +144,13 @@
 :global(.vtex-breadcrumb-1-x-container)::before{
   content: "HOME"
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--colbanderins){
+  background-color: #EFB3CB;
+}
+
+:global(.vtex-rich-text-0-x-container--titulorosa){
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
