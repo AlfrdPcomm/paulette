@@ -57,8 +57,8 @@
         "background": {
           "base": "#ffffff",
           "base--inverted": "#03044e",
-          "action-primary": "#0F3E99",
-          "action-secondary": "#eef3f7",
+          "action-primary": "#EFB3CB",
+          "action-secondary": "#ffffff",
           "emphasis": "#f71963",
           "disabled": "#f2f4f5",
           "success": "#8bc34a",
@@ -74,8 +74,8 @@
           "muted-5": "#f2f4f5"
         },
         "hover-background": {
-          "action-primary": "#072c75",
-          "action-secondary": "#dbe9fd",
+          "action-primary": "#ffffff",
+          "action-secondary": "#ffffff",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -106,9 +106,9 @@
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#0F3E99",
+          "action-primary": "#EFB3CB",
           "action-secondary": "#eef3f7",
-          "link": "#0F3E99",
+          "link": "#EFB3CB",
           "emphasis": "#f71963",
           "disabled": "#979899",
           "success": "#8bc34a",
@@ -127,9 +127,9 @@
           "link": "#0c389f"
         },
         "hover-text": {
-          "action-primary": "#072c75",
+          "action-primary": "#000000",
           "action-secondary": "#dbe9fd",
-          "link": "#0c389f",
+          "link": "#000000",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -149,7 +149,7 @@
           "warning--faded": "#fff6e0"
         },
         "border": {
-          "action-primary": "#0F3E99",
+          "action-primary": "#EFB3CB",
           "action-secondary": "#eef3f7",
           "emphasis": "#f71963",
           "disabled": "#e3e4e6",
@@ -166,7 +166,7 @@
           "muted-5": "#f2f4f5"
         },
         "hover-border": {
-          "action-primary": "#072c75",
+          "action-primary": "#000000",
           "action-secondary": "#dbe9fd",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
@@ -201,7 +201,7 @@
           "base": "#3f3f40",
           "base--inverted": "#ffffff",
           "action-primary": "#ffffff",
-          "action-secondary": "#0F3E99",
+          "action-secondary": "#000000",
           "emphasis": "#ffffff",
           "disabled": "#979899",
           "success": "#ffffff",
@@ -217,7 +217,7 @@
           "muted-5": "#3f3f40"
         },
         "hover-on": {
-          "action-primary": "#ffffff",
+          "action-primary": "#000000",
           "action-secondary": "#0F3E99",
           "emphasis": "#ffffff",
           "success": "#ffffff",
@@ -295,7 +295,7 @@
             "letterSpacing": "0"
           },
           "body": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Sofia-Pro,San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
             "fontWeight": "normal",
             "fontSize": "1rem",
             "textTransform": "initial",
@@ -308,6 +308,7 @@
             "textTransform": "initial",
             "letterSpacing": "0"
           },
+
           "mini": {
             "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
             "fontWeight": "normal",

@@ -20,3 +20,13 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+:global(.vtex-search-result-3-x-galleryTitle--layout),
+:global(.vtex-rich-text-0-x-container--txtsearch){
+  text-align: center;
+}
+
+:global(.vtex-search-result-3-x-searchResultContainer){
+  max-width: 100%;
+  padding:0%;
+}

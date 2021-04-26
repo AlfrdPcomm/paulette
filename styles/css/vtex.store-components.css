@@ -5,22 +5,37 @@
   font-size: 12px;
   text-decoration: underline;
 }
-
+/*------------- infocards ---------------*/
 .infoCardContainer--info-card-home {
   max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
+  /*margin: 0 auto;*/
+  /*background-color: #e6f1e6;*/
   padding: 0px;
 }
 
-.newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
-  margin: 0 auto;
+.infoCardContainer--info-card-izq {
+  max-width: 1520px;
+  /*margin: 0 auto;*/
+  /*background-color: #e6f1e6;*/
+  padding: 0px;
+}
+ 
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-izq)
+  :global(.vtex-button){
+    background-color: #EFB3CB;
+    border-color: #000000;
+    border-width: thin;
+    color: #000000;
+    border-radius: 0px;
 }
 
-.newsletter .container {
-  padding: 60px 10px;
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-home)
+  :global(.vtex-button){
+    background-color: #EFB3CB;
+    border-color: #000000;
+    border-width: thin;
+    color: #000000;
+    border-radius: 0px;
 }
 
 .label {
@@ -87,6 +102,92 @@
     max-height: 600px;
   }
 }
+@media (max-width: 1025px){
+
+  :global(.vtex-minicart-2-x-minicartIconContainer)::before{
+    content: url(assets/bag25x25.png) !important;
+  }
+  :global(.vtex-minicart-2-x-minicartIconContainer){
+    background: transparent;
+  }
+
+  
+  :global(.vtex-login-2-x-container)
+    :global(.vtex-button)
+      :global(.vtex-button__label)::before{
+        content: url(assets/account25x25.png) !important; 
+  }
+
+  :global(.vtex-minicart-2-x-minicartQuantityBadge){
+    right: 0.0rem;
+    top: 0.9rem
+  }
+
+  :global(.vtex-minicart-2-x-openIconContainer--mc-mobile)
+    :global(.vtex-button)
+      :global(.vtex-button__label){
+        padding:0%;       
+  }
+
+  :global(.vtex-store-components-3-x-searchBarInnerContainer)
+  :global(.vtex-input-prefix__group)
+    :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
+      content: url("assets/search25x25.png");
+      position: absolute;
+      top:5px; left: 155px;
+    }
+
+  :global(.vtex-minicart-2-x-openIconContainer--mc-mobile){
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+
+}
+
+@media (max-width: 639px){
+
+  :global(.vtex-store-components-3-x-infoCardTextContainer--inforpueba){
+    height: 358px !important;
+    width: auto !important;
+    padding-top: 27px !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    top: -87px !important;
+    margin-left: 6px;
+    margin-right: 6px;
+    right:0% !important;
+  }
+  :global(.vtex-store-components-3-x-infoCardTextContainer--inforpuebaizq){
+    height: 358px !important;
+    width: auto !important;
+    padding-top: 27px !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    top: -87px !important;
+    margin-left: 6px;
+    margin-right: 6px;
+    left:0% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-page-flag){
+    margin-top: 0px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--txtnl){
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--titnl){
+    margin-bottom: 0%;
+  }
+
+  :global(.vtex-store-components-3-x-headingLevel1--inforpuebaizq){
+    margin-bottom: 0%;
+  }
+}
+
 
 .productImagesContainer--quickview .carouselContainer {
   justify-content: flex-start;
@@ -153,4 +254,483 @@
   color: #fff;
   font-weight: 600;
   font-size: 20px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--inforpueba){
+  background-image: url("assets/infocardbg.png");
+  height:358px;
+  width: 513px;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+  top:65px;
+  right: 70px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--inforpuebaizq){
+  background-image: url("assets/infocardbg.png");
+  height:358px;
+  width: 513px;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+  top:65px;
+  left: 70px;
+}
+:global(.vtex-store-components-3-x-infoCardImageContainer--inforpueba),
+:global(.vtex-store-components-3-x-infoCardImageContainer--inforpuebaizq){
+  display: none;
+}
+
+
+
+/* ---------- Newsletter --------------------------- */
+:global(.vtex-store-newsletter-1-x-newsletterForm--news)
+  :global(.vtex-store-newsletter-1-x-emailInputContainer){
+    display: inline-block;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm--news)
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+    display: inline-block;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--colnl){
+  background-image: url("assets/bgnl.png");
+ height: 321px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rownl){
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titnl){
+  font-weight: 600;
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txtnl){
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm--news)
+  :global(.vtex-store-newsletter-1-x-emailInputContainer)
+    :global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border-color: black;
+    border-width: thin;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+  :global(.vtex-button){
+    background-color: black;
+    border-radius: 0%;
+    border-width: thin;
+    border-color: black;
+    margin-bottom: 4px;
+}
+
+
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+  top: 1.3rem;
+}
+/*------------------- Producto ----------------------*/
+
+:global(.vtex-breadcrumb-1-x-container){
+  text-align: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--breadcrum){
+  border-top: 1px solid #EFB3CB;
+  border-bottom: 1px solid #EFB3CB;
+}
+
+:global(.vtex-breadcrumb-1-x-container){
+  padding-top: 0px;
+}
+
+:global(.vtex-breadcrumb-1-x-homeIcon){
+  width: 0;
+  height: 0;
+}
+
+:global(.vtex-breadcrumb-1-x-container)::before{
+  content: "HOME"
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--colbanderins){
+  background-color: #EFB3CB;
+}
+
+:global(.vtex-rich-text-0-x-container--titulorosa){
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+/* ---------- Newsletter --------------------------- */
+:global(.vtex-store-newsletter-1-x-newsletterForm--news)
+  :global(.vtex-store-newsletter-1-x-emailInputContainer){
+    display: inline-block;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm--news)
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+    display: inline-block;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--colnl){
+  background-image: url("assets/bgnl.png");
+ height: 321px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rownl){
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titnl){
+  font-weight: 600;
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txtnl){
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm--news)
+  :global(.vtex-store-newsletter-1-x-emailInputContainer)
+    :global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border-color: black;
+    border-width: thin;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+  :global(.vtex-button){
+    background-color: black;
+    border-radius: 0%;
+    border-width: thin;
+    border-color: black;
+    margin-bottom: 4px;
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--home-page-flag){
+  margin-top: 50px;
+}
+
+/* ----------------- Slider principal----------------------- */
+:global(.vtex-store-components-3-x-infoCardContainer--ic-sld1 ){
+  width: 100%;
+  height: 500px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--sldprincipal){
+  max-width: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--ic-sld1)
+  :global(.vtex-button){
+    background-color: #ffffff;
+    border-radius: 0%;
+    border-width: thin;
+    border-color: #000000;
+    color: #000000;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--ic-sld1){
+  margin-left: 15%;
+}
+
+/* ---------------- News letter mobile ------------------ */
+:global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile )
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-rich-text-0-x-paragraph--txtnl){
+    padding: 0px;
+  }
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile )
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-rich-text-0-x-paragraph--titnl){
+  text-align:center;
+  padding-top: 0%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile )
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-store-newsletter-1-x-newsletterForm--news){
+  text-align: center;    
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile )
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+  margin-top: 7px; 
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile){
+  background-image: url(assets/newsmobile.png);
+  height: 370px;
+}
+
+
+/* ###################### ajustar imagen ###########################*/
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-image-container){
+  width: 100%;
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer)
+  :global(.vtex-minicart-2-x-cartIcon){
+    width: 0%;
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer)::before{
+    content: url(assets/bag34x34.png);
+    max-width: 16px;
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer){
+  margin-bottom: 7px;
+}
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label)::before{
+      content: url(assets/account34x34.png);
+      
+}
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label)
+      :global(.vtex-login-2-x-profileIcon){
+        width: 0%;
+}
+
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      padding-right: 0%;
+      padding-left: 0%;
+}
+
+
+/*---------------- login -----------------------*/
+:global(.vtex-login-2-x-arrowUp){
+  z-index: -1;
+}
+
+:global(.vtex-login-2-x-contentContainer),
+:global(.vtex-login-2-x-backButton)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+  background-color: #ffffff;
+  border-color: 1px solid #fff;
+}
+
+:global(.vtex-login-2-x-content){
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+:global(.vtex-login-2-x-formTitle){
+  font-size: 0;
+}
+
+:global(.vtex-login-2-x-formTitle)::before{
+  content: "Ingresa a tu cuenta Paulette";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+  :global(.vtex-button),
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+  :global(.vtex-button),
+:global(.vtex-login-2-x-sendButton)
+  :global(.vtex-button){
+    background-color: #ffffff;
+    border: 1px solid #EFB3CB !important;
+    border-radius: 0%;
+}
+
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label),
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label),
+:global(.vtex-login-2-x-googleOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label),
+:global(.vtex-login-2-x-facebookOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label),
+:global(.vtex-login-2-x-sendButton)
+  :global(.vtex-button)
+    :global(.vtex-button__label),
+:global(.vtex-login-2-x-backButton)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      color: #000000;
+}
+
+:global(.vtex-login-2-x-googleOptionBtn)
+  :global(.vtex-button),
+:global(.vtex-login-2-x-facebookOptionBtn)
+  :global(.vtex-button){
+    border: 1px solid #000000;
+    border-radius: 0%;
+}
+
+
+:global(.vtex-login-2-x-googleOptionBtn)
+  :global(.vtex-button):hover,
+:global(.vtex-login-2-x-facebookOptionBtn)
+  :global(.vtex-button):hover,
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+  :global(.vtex-button):hover,
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+  :global(.vtex-button):hover,
+:global(.vtex-login-2-x-sendButton)
+  :global(.vtex-button):hover{
+    background-color: #EFB3CB;
+}
+
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-googleOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-facebookOptionBtn)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-sendButton)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover{
+      color: #ffffff;
+}
+
+:global(.vtex-login-2-x-forgotPasswordLink),
+:global(.vtex-login-2-x-dontHaveAccount){
+  color:#EFB3CB;
+}
+
+:global(.vtex-toast){
+  background-color: #EFB3CB;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--draw-search){
+  padding-right: 0%;
+  padding-left: 0%;
+  padding-top: 17px;
+}
+
+:global(.vtex-store-drawer-0-x-menuIcon--draw-search){
+  width: 0;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--draw-search)::before{
+  content: url(assets/search25x25.png);
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--titsrch){
+  margin-bottom: 0;
+  padding-left: 16px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--contentsrch)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-store-components-3-x-searchBarContainer){
+      padding-top: 0%;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--itemprinlog)::before{
+  content:url(assets/account16x16.png);
+  position: relative;
+  right: 3px;
+  top: 1px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--itemprinlog){
+  font-weight: 500;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--draw-search){
+  border-bottom:1px solid #3f3f40;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--intem-login){
+  padding-top: 25px;
+}
+
+:global(.vtex-store-components-3-x-link--ic-sld1){
+  color: #000000;
+  font-size: 20px;
+}
+
+:global(.vtex-store-components-3-x-italic--ic-sld1),
+:global(.vtex-rich-text-0-x-container--txtnl){
+  font-family: 'Caslon-Italic';
+  font-size: 21px;
+}
+
+:global(.vtex-store-components-3-x-heading--inforpueba),
+:global(.vtex-store-components-3-x-heading--inforpuebaizq){
+  font-size: 30px;
+  text-align: center;
+}
+
+:global(.vtex-store-components-3-x-paragraph--inforpueba),
+:global(.vtex-store-components-3-x-paragraph--inforpuebaizq){
+  text-align: center;
+  font-family: 'Caslon-Italic';
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--inforpueba)
+  :global(.vtex-button),
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--inforpuebaizq)
+  :global(.vtex-button){
+    border-radius: 0%;
+    border:thin;
+    border: 1px solid #000000;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--inforpueba)
+  :global(.vtex-button)
+    :global(.vtex-button__label),
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--inforpuebaizq)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+    color: #000000;
+}
+
+:global(.vtex-store-components-3-x-headingLevel1--ic-sld1){
+  font-family: 'Didot';
+  color: #000000;
 }

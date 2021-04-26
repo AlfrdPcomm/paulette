@@ -88,7 +88,9 @@
 :global(.vtex-store-components-3-x-notificationBarContainer--notif-bar){
   color: #fffFFF;
   background-color: #EFB3CB;
-  font-size: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 
@@ -109,9 +111,9 @@
   :global(.vtex-store-components-3-x-searchBarInnerContainer)
   :global(.vtex-input-prefix__group)
     :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
-      content: url("assets/search.png");
+      content: url("assets/search34x34.png");
       position: absolute;
-      top:4px; left: 190px;
+      top:5px; left: 155px;
     }
 
   :global(.vtex-store-components-3-x-searchBarInnerContainer)
@@ -122,9 +124,29 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--itempaginas){
   color:#000000;
+  font-family: 'Caslon-Italic';
+  font-size: 21px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--itemprin){
-  font-size: 20px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
 }
-  
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
+  background-color: #fffFFF;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer){
+  color: #EFB3CB;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
+    background-color: #fffFFF;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--itemprin):hover{
+    color:#EFB3CB;
+  }

@@ -20,8 +20,8 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      //"modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
 
@@ -106,20 +106,32 @@
   "children":[
     "flex-layout.col#boton",
     "flex-layout.col#wish"
-  ]
+  ],
+  "props":{
+    "preserveLayoutOnMobile":true
+  }
 },
 "flex-layout.col#boton":{
   "children":[
-    "add-to-cart-button"
+    "add-to-cart-button#sldshelf"
   ],"props":{
-      "width":"75%"
+      "width":"75%",
+      "blockClass":"btncomprar"
   }
 },
+"add-to-cart-button#sldshelf":{
+  "props":{
+    "text": "COMPRAR"
+  }
+},
+
+
 "flex-layout.col#wish":{
   "children":[
-    "add-to-cart-button"
+    "add-to-list-btn"
   ],"props":{
-    "width":"25%"
+    "width":"25%",
+    "blockClass":"colwish"
   }
 }
 

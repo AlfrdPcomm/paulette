@@ -62,10 +62,13 @@
     "vtex.product-highlights": "2.x",
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
-    "vtex.condition-layout": "2.x"
+    "vtex.condition-layout": "2.x",
+    "vtex.store-newsletter": "1.x",
+    "vtex.search": "1.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
+    "vtex.reviews-and-ratings": "2.x",
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -97,10 +97,11 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "logo#principamobile",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#institutional-mobile"
+      //"minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -115,9 +116,16 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#pasteles",
+      "menu-item#gelatinas",
+      "menu-item#libre",
+      "menu-item#individuales",
+      "menu-item#macarons",
+      "menu-item#dulzuras",
+      "menu-item#chocolates",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logm"
+      
      
     ],
     "props": {
@@ -125,12 +133,11 @@
     }
   },
 
-  "logo#mobile": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+  "flex-layout.col#logm":{
+    "children":[
+      "menu-item#login"
+    ],"props":{
+      "blockClass":"intem-login"
     }
   },
 
@@ -153,6 +160,15 @@
       "href": "/",
       "url": "assets/logo-paulette.png",
       "width": "250"
+    }
+  },
+
+  "logo#principamobile": {
+    "props": {
+      "title": "Logo-principalmobile",  
+      "href": "/",
+      "url": "assets/logo-paulette.png",
+      "width": "130"
     }
   }
 

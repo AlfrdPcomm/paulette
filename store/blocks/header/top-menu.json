@@ -80,6 +80,59 @@
       "login",
       "minicart.v2"
     ]
+  },  
+
+  "vtex.menu@2.x:menu#institutional-mobile": {
+    "children": [
+      "drawer#search",
+      "minicart.v2#mobile"
+    ]
+  },
+  "search-bar#mobile":{
+    "props":{
+      "blockClass":"sb-mobile"
+    }
+  },"login#mobile":{
+    "props":{
+      "blockClass":"lg-mobile"
+    }
+  }, "minicart.v2#mobile":{
+    "props":{
+      "blockClass":"mc-mobile"
+    }
+  },
+
+  "drawer#search":{
+    "props":{
+      "isFullWidth": true,
+      "slideDirection": "rightToLeft",
+      "text":"Buscar:",
+      "blockClass":"draw-search"
+    },
+    "children":[
+      "flex-layout.row#titsearch"
+    ]
+  },"flex-layout.row#titsearch":{
+    "children":[      
+      "rich-text#titsrch",
+      "search-bar"
+    ],"props":{
+      "blockClass":"contentsrch"
+    }
+  },"rich-text#titsrch":{
+    "props":{
+      "text": "Buscar:",
+      "blockClass":"titsrch"
+    }
+  },
+
+  "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   }
+
   
+
 }

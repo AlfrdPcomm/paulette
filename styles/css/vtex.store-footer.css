@@ -9,3 +9,39 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row){
+  background-color: #EFB3CB ;
+  padding: 30px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--titmenf),
+:global(.vtex-menu-2-x-styledLinkContent--titmobile){
+  color: #ffffff;
+  font-weight: 600;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--itemfoo){
+  color: #ffffff;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--itemfoo):hover{
+  color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--rowmobile){
+  margin-top: 35px;
+  background-color: #EFB3CB ;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--titmobile)
+  :global(.vtex-menu-2-x-accordionIcon--isClosed),
+:global(.vtex-menu-2-x-styledLinkContent--titmobile)
+  :global(.vtex-menu-2-x-accordionIcon--isOpen){
+    color: #ffffff;
+  }
+
+:global(.vtex-menu-2-x-styledLinkContent--itemfoo){
+  font-family: 'Caslon-Italic';
+  font-size: 18px;
+}

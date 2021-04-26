@@ -67,7 +67,7 @@
       "flex-layout.row#imgseparador",
       "flex-layout.row#txtdescr",
       "flex-layout.row#result",
-      "newsletter"
+      "flex-layout.row#newsletter"
     ],
     "props": {
       "pagination": "show-more",
@@ -79,11 +79,14 @@
     "children":[
       "image#prinsearch"
     ],"props":{
-      "fullWidth":true
+      "fullWidth":true,
+      "blockClass":"rowbannersearch"
     }
   },"image#prinsearch":{
     "props":{
-      "src": "assets/bannersearch.png"
+      "src": "assets/bannersearch.png",
+      "width":"100%",
+      "blockClass":"prinbanner"
     }
   },
 
@@ -99,11 +102,20 @@
 
   "flex-layout.row#txtdescr":{
     "children":[
-      "rich-text#descripcioncat"
+      "flex-layout.col#stxtcontent"      
     ]
-  },"rich-text#descripcioncat":{
+  },"flex-layout.col#stxtcontent":{
+    "children":[
+      "rich-text#descripcioncat"
+    ],"props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#descripcioncat":{
     "props":{
-      "text":"Descripción de categoría"
+      "text":"Descripción de categoría",
+      "textPosition":"center",
+      "blockClass":"txtsearch"
     }
   },
 
@@ -177,11 +189,12 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#searchinfomobile",
-      "flex-layout.row#productCountMobile",
+      //"flex-layout.row#searchinfomobile",
+      //"flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#newsletter-mobile"
     ],
     "props": {
       "pagination": "show-more",
@@ -265,7 +278,7 @@
             "(min-width:1300px)": 4,
             "desktop": 3,
             "tablet": 3,
-            "phone": 2
+            "phone": 1
           }
         },
         {
