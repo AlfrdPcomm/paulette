@@ -734,3 +734,9 @@
   font-family: 'Didot';
   color: #000000;
 }
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label):hover{
+      color: #EFB3CB;
+}
