@@ -150,3 +150,25 @@
   :global(.vtex-menu-2-x-styledLinkContent--itemprin):hover{
     color:#EFB3CB;
   }
+
+:global(.vtex-flex-layout-0-x-flexColChild--srchlogcart)
+  :global(.vtex-minicart-2-x-minicartWrapperContainer)
+    :global(.vtex-minicart-2-x-openIconContainer){
+      width: 40px;
+    }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rowcontentsrch){
+  padding-right: 50px;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer--mc-mobile){
+    width: 16px;
+  }
+:global(.vtex-menu-2-x-menuContainerNav--instmob){
+  padding-right: 15px;
+}
+
+:global(.vtex-minicart-2-x-minicartQuantityBadge--mc-mobile){
+  top: 1rem;
+  right: -9px;
+}

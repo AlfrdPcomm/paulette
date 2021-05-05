@@ -76,17 +76,48 @@
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "search-bar",
-      "login",
-      "minicart.v2"
+      "flex-layout.row#srchlogcart"     
     ]
-  },  
+  }, "flex-layout.row#srchlogcart":{
+    "children":[
+      "flex-layout.col#srch",
+      "flex-layout.col#logdesk",
+      "flex-layout.col#cart"     
+    ],"props":{
+      "blockClass":"rowcontentsrch"
+    }
+  },
+  "flex-layout.col#srch":{
+    "children":[
+      "search-bar"
+    ],"props":{
+      "blockClass":"srchlogcart"
+    }
+  },"flex-layout.col#logdesk":{
+    "children":[
+      "login"
+    ],"props":{
+      "blockClass":"srchlogcart",
+      "verticalAlign":"middle"
+    }
+  },
+  "flex-layout.col#cart":{
+    "children":[
+      "minicart.v2"
+    ],"props":{
+      "blockClass":"srchlogcart"
+    }
+  }, 
+
+
 
   "vtex.menu@2.x:menu#institutional-mobile": {
     "children": [
       "drawer#search",
       "minicart.v2#mobile"
-    ]
+    ],"props":{
+      "blockClass":"instmob"
+    }
   },
   "search-bar#mobile":{
     "props":{

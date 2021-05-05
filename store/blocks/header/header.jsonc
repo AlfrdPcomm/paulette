@@ -37,9 +37,19 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#menwebs",      
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#meninst"
+    ]
+  },
+  "flex-layout.col#meninst":{
+    "children":[
+      "flex-layout.row#srchlogcart"
+    ]
+  },
+  "flex-layout.col#menwebs":{
+    "children":[
+      "vtex.menu@2.x:menu#websites"
     ]
   },
   "flex-layout.col#spacer": {

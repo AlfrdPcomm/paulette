@@ -740,3 +740,12 @@
     :global(.vtex-button__label):hover{
       color: #EFB3CB;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--srchlogcart){
+  width: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rowcontentsrch)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;
+}
