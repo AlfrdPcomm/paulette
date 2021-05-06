@@ -1,0 +1,30 @@
+:global(.vtex-minicart-2-x-minicartTitle) {
+  font-size: 0;
+  visibility: hidden;
+}
+/* :global(.vtex-minicart-2-x-minicartTitle)::before {
+  font-size: 30px;
+  visibility: visible;
+  content: "TUS COMPRAS";
+} */
+:global(.vtex-minicart-2-x-closeIconButton) {
+  display: flex;
+  align-items: center;
+  color: #efb3cb;
+}
+:global(.vtex-minicart-2-x-closeIconContainer) {
+  display: flex;
+  align-items: center;
+}
+:global(.vtex-minicart-2-x-closeIconContainer)::after {
+  display: flex;
+  justify-content: center;
+  padding-left: 45px;
+  font-size: 30px;
+  visibility: visible;
+  content: "TUS COMPRAS";
+  color: #efb3cb;
+}
+:global(.vtex-minicart-2-x-minicartProductListContainer) {
+  border: 1px solis red;
+}
