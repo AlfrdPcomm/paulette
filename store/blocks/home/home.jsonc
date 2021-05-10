@@ -4,7 +4,7 @@
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.phone"
-      
+
     ]
   },
 
@@ -18,7 +18,7 @@
       "flex-layout.row#titrosa",
       "flex-layout.row#prueba",
       "flex-layout.row#shelf",
-      "flex-layout.row#titmenta",      
+      "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#newsletter"
     ]
@@ -34,11 +34,11 @@
       "flex-layout.row#titrosa",
       "flex-layout.row#shelf",
       "flex-layout.row#prueba",
-      "flex-layout.row#titmenta",      
+      "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#infotxtizqm",
       "flex-layout.row#newsletter-mobile"
-      
+
     ]
   },
 
@@ -55,17 +55,17 @@
       "flex-layout.row#titrosa",
       "flex-layout.row#shelf",
       "flex-layout.row#prueba",
-      "flex-layout.row#titmenta",      
+      "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#infotxtizq",
       "flex-layout.row#newsletter",
       "back-to-top-button"
-      
-      
+
+
     ]
   },
 
- 
+
 
   "flex-layout.row#falda":{
     "children":[
@@ -83,11 +83,11 @@
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
+
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByNameASC"
     }
   },
   "slider-layout#demo-products": {
@@ -103,7 +103,7 @@
     }
   },
 
- 
+
 
 
 
@@ -283,7 +283,7 @@
 
 /*################## Banderas hasta aqui ######################*/
 
-  
+
   "flex-layout.row#newsletter":{
     "children":[
       "flex-layout.col#nl"
@@ -292,7 +292,7 @@
       "horizontalAlign":"center",
       "blockClass":"rownl"
     }
-  }, 
+  },
 
   "flex-layout.col#nl":{
     "children":[
@@ -323,7 +323,7 @@
       "blockClass":"txtnl"
     }
   },
-  
+
   "newsletter-form#nlgral":{
     "children":[
       "newsletter-input-email",
@@ -430,7 +430,7 @@
   "children":[
     "flex-layout.col#infcardizq",
     "flex-layout.col#imginfoizq"
-    
+
   ]
 },"flex-layout.col#imginfoizq":{
   "children":[
@@ -470,8 +470,8 @@
 "flex-layout.row#infotxtizqm":{
   "children":[
     "flex-layout.col#imginfoizqm",
-    "flex-layout.col#infcardizq"    
-    
+    "flex-layout.col#infcardizq"
+
   ]
 },"flex-layout.col#imginfoizqm":{
   "children":[
@@ -508,7 +508,7 @@
 }
 
 
-  
+
 
 
 }

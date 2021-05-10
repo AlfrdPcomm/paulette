@@ -1,4 +1,36 @@
 {
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+
+    ]
+  },
+
+  "responsive-layout.tablet":{
+    "children":[
+      "add-to-cart-button",
+      "minicart.v2"
+    ]
+  },
+
+  "responsive-layout.phone":{
+    "children":[
+      "add-to-cart-button",
+      "minicart.v2"
+    ]
+  },
+
+
+
+
+  "responsive-layout.desktop":{
+    "children":[
+      "add-to-cart-button",
+      "minicart.v2"
+    ]
+  },
   "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
