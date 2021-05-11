@@ -74,7 +74,7 @@
 
   "footer-layout.mobile": {
     "children": [
-      
+
       "flex-layout.row#1-footer-mobile"
     ]
   },
@@ -93,14 +93,32 @@
     "children":[
       "image#logofooter"
     ],"props":{
-      "horizontalAlign":"center"
+      "horizontalAlign":"center",
+      "blockClass": "footerLogo"
+    }
+  },
+
+  "vtex.menu@2.x:menu#paulette": {
+    "props": {
+      "blockClass": "footeräulette"
+    }
+  },
+
+  "vtex.menu@2.x:menu#creaciones": {
+    "props": {
+      "blockClass": "footerCreaciones"
+    }
+  },
+  "vtex.menu@2.x:menu#shoponline": {
+    "props": {
+      "blockClass": "footerOnline"
+    }
+  },
+  "vtex.menu@2.x:menu#bolsa": {
+    "props": {
+      "blockClass": "footerBolsa"
     }
   }
-
-
-
-
-
 
 }
 

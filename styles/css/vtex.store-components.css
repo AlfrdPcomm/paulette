@@ -19,7 +19,7 @@
   /*background-color: #e6f1e6;*/
   padding: 0px;
 }
- 
+
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-izq)
   :global(.vtex-button){
     background-color: #EFB3CB;
@@ -111,11 +111,11 @@
     background: transparent;
   }
 
-  
+
   :global(.vtex-login-2-x-container)
     :global(.vtex-button)
       :global(.vtex-button__label)::before{
-        content: url(assets/account25x25.png) !important; 
+        content: url(assets/account25x25.png) !important;
   }
 
   :global(.vtex-minicart-2-x-minicartQuantityBadge){
@@ -126,7 +126,7 @@
   :global(.vtex-minicart-2-x-openIconContainer--mc-mobile)
     :global(.vtex-button)
       :global(.vtex-button__label){
-        padding:0%;       
+        padding:0%;
   }
 
   :global(.vtex-store-components-3-x-searchBarInnerContainer)
@@ -426,7 +426,7 @@
 
 
 :global(.vtex-flex-layout-0-x-flexRow--home-page-flag){
-  margin-top: 50px;
+  margin: 50px 0 10px 0;
 }
 
 /* ----------------- Slider principal----------------------- */
@@ -470,13 +470,13 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile )
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
     :global(.vtex-store-newsletter-1-x-newsletterForm--news){
-  text-align: center;    
+  text-align: center;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile )
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
     :global(.vtex-store-newsletter-1-x-formSubmitContainer){
-  margin-top: 7px; 
+  margin-top: 7px;
 }
 
 
@@ -511,7 +511,7 @@
   :global(.vtex-button)
     :global(.vtex-button__label)::before{
       content: url(assets/account34x34.png);
-      
+
 }
 
 :global(.vtex-login-2-x-container)
@@ -749,3 +749,13 @@
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: auto !important;
 }
+
+/* carrusel 'siguenos en insta' starts*/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-insta)
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer) {
+  margin: 10px;
+}
+
+/* :global(.vtex-store-components-3-x-imageElement--banner-insta) {
+} */
+/* carrusel 'siguenos en insta' ends*/

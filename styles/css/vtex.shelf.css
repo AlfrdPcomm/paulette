@@ -1,0 +1,43 @@
+:global(.vtex-flex-layout-0-x-flexCol--customsummary) {
+  text-align: center;
+  min-height: 130px;
+}
+
+:global(.vtex-product-summary-2-x-description) {
+  font-family: "Caslon-Italic";
+  color: #000000;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary) {
+  font-size: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--colwish) {
+  margin-top: -.5px;
+}
+
+:global(.vtex-product-summary-2-x-brandName){
+  color: #000000;
+  font-size: 14px;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary){
+  color: #000000;
+  font-size: 14px;
+}
+
+:global(.vtex-product-summary-2-x-image){
+  max-height: 240px!important;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows--shelf){
+  top: 107px;
+}
+
+:global(.vtex-slider-layout-0-x-slide--shelf){
+  margin-bottom: 5rem!important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){
+  margin-bottom: 4rem!important;
+}

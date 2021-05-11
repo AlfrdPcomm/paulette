@@ -1,8 +1,7 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#about-us",
-      "video#about-us"
+      "flex-layout.row#about-us"
     ]
   },
 
@@ -27,10 +26,11 @@
   "rich-text#title-about-us": {
     "props": {
       "text":
-      "# Create meaningful and relevant experiences.",
+      "# Nosotros",
       "blockClass": "title"
     }
   },
+
 
   "image#mobile-phone": {
     "props": {

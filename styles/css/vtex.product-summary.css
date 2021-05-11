@@ -45,18 +45,18 @@
   :global(.vtex-button){
     background-color: #ffffff;
     color: #000000;
-    border-color: #000000 !important;  
+    border-color: #000000 !important;
     border-radius: 0%;
-    border-width: thin;
+    border-width: 1.5px;
     margin-top: 7px;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--btncomprar)
   :global(.vtex-button):hover{
-    
+
     background-color: #EFB3CB;
     color: #ffffff;
-    border-color: #EFB3CB !important;  
+    border-color: #EFB3CB !important;
     border-radius: 0%;
 }
 
@@ -65,12 +65,12 @@
   :global(.vtex-button)
     :global(.vtex-button__label){
      width: 0px;
-  
+
 }
 :global(.vtex-wish-list-1-x-wishlistIconContainer)
   :global(.vtex-button)
     :global(.vtex-button__label)::before{
-      content: url(assets/wishlist.png);  
+      content: url(assets/wishlist.png);
 }
 
 /*##################### Main Summary / Product Start #################################*/

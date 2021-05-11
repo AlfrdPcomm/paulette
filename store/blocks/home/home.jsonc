@@ -4,7 +4,7 @@
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.phone"
-      
+
     ]
   },
 
@@ -16,10 +16,12 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#titrosa",
+      "flex-layout.row#shelf",
       "flex-layout.row#prueba",
+      "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
-      "flex-layout.row#titmenta",      
-      "flex-layout.row#shelf",
+      "flex-layout.row#titinstagram",
+      "slider-layout#text-test",
       "flex-layout.row#newsletter"
     ]
   },
@@ -34,11 +36,13 @@
       "flex-layout.row#titrosa",
       "flex-layout.row#shelf",
       "flex-layout.row#prueba",
-      "flex-layout.row#titmenta",      
+      "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#infotxtizqm",
+      "flex-layout.row#titinstagram",
+      "slider-layout#text-test",
       "flex-layout.row#newsletter-mobile"
-      
+
     ]
   },
 
@@ -55,17 +59,19 @@
       "flex-layout.row#titrosa",
       "flex-layout.row#shelf",
       "flex-layout.row#prueba",
-      "flex-layout.row#titmenta",      
+      "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#infotxtizq",
+      "flex-layout.row#titinstagram",
+      "slider-layout#text-test",
       "flex-layout.row#newsletter",
       "back-to-top-button"
-      
-      
+
+
     ]
   },
 
- 
+
 
   "flex-layout.row#falda":{
     "children":[
@@ -83,17 +89,17 @@
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
+
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByNameASC"
     }
   },
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 3,
         "tablet": 2,
         "phone": 1
       },
@@ -103,7 +109,7 @@
     }
   },
 
- 
+
 
 
 
@@ -283,7 +289,7 @@
 
 /*################## Banderas hasta aqui ######################*/
 
-  
+
   "flex-layout.row#newsletter":{
     "children":[
       "flex-layout.col#nl"
@@ -292,7 +298,7 @@
       "horizontalAlign":"center",
       "blockClass":"rownl"
     }
-  }, 
+  },
 
   "flex-layout.col#nl":{
     "children":[
@@ -323,7 +329,7 @@
       "blockClass":"txtnl"
     }
   },
-  
+
   "newsletter-form#nlgral":{
     "children":[
       "newsletter-input-email",
@@ -430,7 +436,7 @@
   "children":[
     "flex-layout.col#infcardizq",
     "flex-layout.col#imginfoizq"
-    
+
   ]
 },"flex-layout.col#imginfoizq":{
   "children":[
@@ -470,8 +476,8 @@
 "flex-layout.row#infotxtizqm":{
   "children":[
     "flex-layout.col#imginfoizqm",
-    "flex-layout.col#infcardizq"    
-    
+    "flex-layout.col#infcardizq"
+
   ]
 },"flex-layout.col#imginfoizqm":{
   "children":[
@@ -505,10 +511,65 @@
       "textAlignment": "center",
       "blockClass":"inforpuebaizq"
   }
-}
+},
+  /*################## Bandera Insta #########################*/
+
+  "flex-layout.row#titinstagram":{
+    "props":{
+      "blockClass":"home-page-flag"
+    },
+    "children":[
+      "flex-layout.col#hrleft",
+      "flex-layout.col#etiquetainstagram",
+      "flex-layout.col#hrright"
+    ]
+  },
+
+  "flex-layout.col#etiquetainstagram":{
+    "children":[
+      "rich-text#tit1instagram"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass": "flag-title"
+    }
+  },
+
+    "rich-text#tit1instagram":{
+      "props":{
+        "text":"¡Siguenos en insta!",
+        "blockClass": "titulorosa",
+        "textPosition": "center"
+      }
+    },
+
+    // carrusel instagram banners starts
+    "slider-layout#text-test": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 4,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "mobileOnly",
+        "blockClass": "carrusel-insta"
+      },
+      "children": ["image#banner-insta-1", "image#banner-insta-1", "image#banner-insta-1", "image#banner-insta-1"]
+    },
+    "image#banner-insta-1":{
+      "props":{
+        "src":"assets/infomagie.png",
+        "blockClass": "banner-insta"
+      }
+    }
+   // carrusel instagram banenrs ends
 
 
-  
+
+   /*################## Bandera Rosa #########################*/
+
+
+
 
 
 }

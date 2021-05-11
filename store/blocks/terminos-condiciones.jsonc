@@ -1,0 +1,46 @@
+{
+  "store.custom#terminos-condiciones": {
+    "blocks": [
+      "flex-layout.row#terminos-condiciones"
+    ]
+  },
+
+  "flex-layout.row#terminos-condiciones": {
+    "children": [
+      "flex-layout.col#text-terminos-condiciones"
+    ],
+    "props":{
+      "horizontalAlign": "center",
+      "borderColor": "#748598"
+    }
+  },
+
+  "flex-layout.col#text-terminos-condiciones": {
+    "children": [
+      "rich-text#title-terminos-condiciones",
+      "rich-text#terminos-condiciones"
+    ],
+    "props": {
+      "blockclass": "",
+      "horizontalAlign": "center",
+      "width": "80%",
+      "borderColor": "red",
+      "paddingBottom": "10px"
+    }
+  },
+
+  "rich-text#title-terminos-condiciones": {
+    "props": {
+      "text":
+      "Terminos y Condiciones",
+      "blockClass": "institucional-title"
+    }
+  },
+
+  "rich-text#terminos-condiciones": {
+    "props": {
+      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "blockClass": "institucional-contenido"
+    }
+  }
+}
