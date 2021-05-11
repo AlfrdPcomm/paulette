@@ -30,6 +30,10 @@
   max-height: 240px!important;
 }
 
+:global(.vtex-slider-layout-0-x-sliderArrows--shelf){
+  top: 107px;
+}
+
 :global(.vtex-slider-layout-0-x-slide--shelf){
   margin-bottom: 5rem!important;
 }

@@ -115,7 +115,7 @@
   "children":[
     "add-to-cart-button#sldshelf"
   ],"props":{
-      "width":"84%",
+      "width":"81%",
       "blockClass":"btncomprar"
   }
 },
