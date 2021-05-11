@@ -89,7 +89,7 @@
 
   "flex-layout.row#sumname":{
     "children":[
-      "flex-layout.col#name"      
+      "flex-layout.col#name"
     ]
   },
   "flex-layout.col#name":{
@@ -115,7 +115,7 @@
   "children":[
     "add-to-cart-button#sldshelf"
   ],"props":{
-      "width":"75%",
+      "width":"84%",
       "blockClass":"btncomprar"
   }
 },
@@ -130,7 +130,7 @@
   "children":[
     "add-to-list-btn"
   ],"props":{
-    "width":"25%",
+    "width":"16%",
     "blockClass":"colwish"
   }
 }
