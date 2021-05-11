@@ -27,8 +27,7 @@
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 1rem;
-  -webkit-text-stroke: 1px #ffffff;
-
+  /* -webkit-text-stroke: 1px #ffffff; */
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--itemfoo){
@@ -54,6 +53,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--itemfoo){
   font-family: 'Caslon-Italic';
   font-size: 16px;
+  font-weight: lighter;
 }
 
 
