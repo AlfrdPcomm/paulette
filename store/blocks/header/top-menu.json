@@ -114,25 +114,16 @@
   "vtex.menu@2.x:menu#institutional-mobile": {
     "children": [
       "drawer#search",
-      "minicart.v2#mobile"
+      "minicart.v2"
     ],"props":{
       "blockClass":"instmob"
     }
   },
-  "search-bar#mobile":{
-    "props":{
-      "blockClass":"sb-mobile"
-    }
-  },"login#mobile":{
+  "login#mobile":{
     "props":{
       "blockClass":"lg-mobile"
     }
-  }, "minicart.v2#mobile":{
-    "props":{
-      "blockClass":"mc-mobile"
-    }
   },
-
   "drawer#search":{
     "props":{
       "isFullWidth": true,
