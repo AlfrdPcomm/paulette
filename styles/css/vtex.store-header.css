@@ -172,3 +172,9 @@
   top: 1rem;
   right: -9px;
 }
+
+:global(.vtex-store-components-3-x-notificationBarContainer--notif-bar){
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

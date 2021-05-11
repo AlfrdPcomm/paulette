@@ -12,13 +12,23 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-row){
   background-color: #EFB3CB ;
-  padding: 30px;
+  padding: 3.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav){
+  width: auto;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--titmenf),
 :global(.vtex-menu-2-x-styledLinkContent--titmobile){
   color: #ffffff;
   font-weight: 600;
+  margin-bottom: 1rem;
+  -webkit-text-stroke: 1px #ffffff;
+
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--itemfoo){
@@ -43,5 +53,14 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--itemfoo){
   font-family: 'Caslon-Italic';
-  font-size: 18px;
+  font-size: 16px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--itemfoo) {
+  padding-top: 0;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+  width: auto!important;
 }
