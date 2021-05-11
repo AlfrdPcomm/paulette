@@ -20,6 +20,8 @@
       "flex-layout.row#prueba",
       "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
+      "flex-layout.row#titinstagram",
+      "slider-layout#text-test",
       "flex-layout.row#newsletter"
     ]
   },
@@ -37,6 +39,8 @@
       "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#infotxtizqm",
+      "flex-layout.row#titinstagram",
+      "slider-layout#text-test",
       "flex-layout.row#newsletter-mobile"
 
     ]
@@ -58,6 +62,8 @@
       "flex-layout.row#titmenta",
       "flex-layout.row#shelf",
       "flex-layout.row#infotxtizq",
+      "flex-layout.row#titinstagram",
+      "slider-layout#text-test",
       "flex-layout.row#newsletter",
       "back-to-top-button"
 
@@ -505,7 +511,62 @@
       "textAlignment": "center",
       "blockClass":"inforpuebaizq"
   }
-}
+},
+  /*################## Bandera Insta #########################*/
+
+  "flex-layout.row#titinstagram":{
+    "props":{
+      "blockClass":"home-page-flag"
+    },
+    "children":[
+      "flex-layout.col#hrleft",
+      "flex-layout.col#etiquetainstagram",
+      "flex-layout.col#hrright"
+    ]
+  },
+
+  "flex-layout.col#etiquetainstagram":{
+    "children":[
+      "rich-text#tit1instagram"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass": "flag-title"
+    }
+  },
+
+    "rich-text#tit1instagram":{
+      "props":{
+        "text":"¡Siguenos en insta!",
+        "blockClass": "titulorosa",
+        "textPosition": "center"
+      }
+    },
+
+    // carrusel instagram banners starts
+    "slider-layout#text-test": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 4,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "mobileOnly",
+        "blockClass": "carrusel-insta"
+      },
+      "children": ["image#banner-insta-1", "image#banner-insta-1", "image#banner-insta-1", "image#banner-insta-1"]
+    },
+    "image#banner-insta-1":{
+      "props":{
+        "src":"assets/infomagie.png",
+        "blockClass": "banner-insta"
+      }
+    }
+   // carrusel instagram banenrs ends
+
+
+
+   /*################## Bandera Rosa #########################*/
 
 
 

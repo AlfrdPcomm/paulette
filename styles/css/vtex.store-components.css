@@ -749,3 +749,13 @@
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: auto !important;
 }
+
+/* carrusel 'siguenos en insta' starts*/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-insta)
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer) {
+  margin: 10px;
+}
+
+/* :global(.vtex-store-components-3-x-imageElement--banner-insta) {
+} */
+/* carrusel 'siguenos en insta' ends*/
