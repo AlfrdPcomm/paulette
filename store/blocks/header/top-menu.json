@@ -146,13 +146,6 @@
       "text": "Buscar:",
       "blockClass":"titsrch"
     }
-  },
-
-  "search-bar":{
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true
-    }
   }
 
 
